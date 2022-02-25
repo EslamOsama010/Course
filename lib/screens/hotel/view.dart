@@ -37,7 +37,7 @@ class HotelScreen extends StatelessWidget {
 
               ),
               Container(
-                margin: const EdgeInsets.only(top: 41),
+                margin: const EdgeInsets.only(top: 35),
                 height: 500,
                 width: double.infinity,
                 decoration: BoxDecoration(

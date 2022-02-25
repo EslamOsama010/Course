@@ -160,9 +160,8 @@ final controller = LemonController();
                         TextSpan(text:'9', style: TextStyle(fontSize: 33,color: Colors.green,fontWeight: FontWeight.bold)),
                       ]
                     )),
-                    SizedBox(height: 50,),
+                    SizedBox(height: 40,),
                     FloatingActionButton(mini: true,backgroundColor: Colors.green[900],onPressed: (){},child:Text('Buy',style: TextStyle(color: Colors.white),), ),
-                    SizedBox(height: 10,),
 
                   ],
                 ),

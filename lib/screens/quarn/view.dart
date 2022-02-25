@@ -14,61 +14,62 @@ class QuranScreen extends StatelessWidget {
         child: Container(
           width: double.infinity,
           color: Colors.green[900],
-          child: Column(
-            children: [
-              Chat2(),
-              Container(
-                padding: const EdgeInsets.only(right: 15, left: 15),
-                child: Row(
-                  children: [
-                    Chat1(
-                      name: ' استمع للقرأن',
-                      image: 'assets/images/quranni.png',
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Chat1(),
-                  ],
+          child: SingleChildScrollView(
+            child: Column(
+              children: [
+                Chat2(),
+                Container(
+                  padding: const EdgeInsets.only(right: 15, left: 15),
+                  child: Row(
+                    children: [
+                      Chat1(
+                        name: ' استمع للقرأن',
+                        image: 'assets/images/quranni.png',
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Chat1(),
+                    ],
+                  ),
                 ),
-              ),
-              Container(
-                padding: const EdgeInsets.only(
-                    top: 15, right: 15, left: 15, bottom: 15),
-                child: Column(
-                  children: [
-                    Chat3(),
-                    SizedBox(
-                      height: 10,
-                    ),
-                    Chat3(
-                      text: 'التسبيح',
-                      img: 'assets/images/icon.png',
-                    ),
-                    SizedBox(
-                      height: 10,
-                    ),
-                    Chat3(
-                      text: 'القبلة',
-                      img: 'assets/images/ka3ba.png',
-                    ),
-                  ],
+                Container(
+                  padding: const EdgeInsets.only(
+                      top: 15, right: 15, left: 15, bottom: 15),
+                  child: Column(
+                    children: [
+                      Chat3(),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Chat3(
+                        text: 'التسبيح',
+                        img: 'assets/images/icon.png',
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Chat3(
+                        text: 'القبلة',
+                        img: 'assets/images/ka3ba.png',
+                      ),
+                    ],
+                  ),
                 ),
-              ),
-              // SizedBox(height: 10,),
-              Container(
-                child: Row(
-                  children: [
-                    Chat4(),
-                    Chat4(
-                      color: Colors.grey,
-                      images: 'assets/images/starss.png',
-                      names: 'تقييم التطبيق',
-                    ),
-                  ],
+                Container(
+                  child: Row(
+                    children: [
+                      Chat4(),
+                      Chat4(
+                        color: Colors.grey,
+                        images: 'assets/images/starss.png',
+                        names: 'تقييم التطبيق',
+                      ),
+                    ],
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),

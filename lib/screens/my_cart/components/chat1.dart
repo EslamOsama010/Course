@@ -55,7 +55,7 @@ class _Chat1State extends State<Chat1> {
                 TextSpan(
                     text: 'Sub Total:\t\t', style: TextStyle(fontSize: 12)),
                 TextSpan(
-                    text: '\$400\n\n', style: TextStyle(color: Colors.orange)),
+                    text: '\$400\n', style: TextStyle(color: Colors.orange)),
                 TextSpan(
                     text: 'Ships Free', style: TextStyle(color: Colors.orange)),
               ])),

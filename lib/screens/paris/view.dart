@@ -57,8 +57,8 @@ class _ParisScreenState extends State<ParisScreen> {
             ),
             Image.asset(
               'assets/images/raining.png',
-              height: 230,
-              width: 400,
+              height: 200,
+              width: 200,
             ),
             SizedBox(
               height: 30,

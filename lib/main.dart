@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+ import 'package:flutter/material.dart';
 import 'package:myapp2/screens/%D8%A7%D9%84%D8%A7%D8%B0%D9%83%D8%A7%D8%B1/view.dart';
 import 'package:myapp2/screens/arrival/view.dart';
 import 'package:myapp2/screens/bad/view.dart';

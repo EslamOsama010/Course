@@ -139,7 +139,7 @@ class _MediaFireScreenState extends State<MediaFireScreen> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                     Text('Don\'t have an account ?'),
-                    MaterialButton(onPressed: (){},child: Text('Create an account',style: TextStyle(color: Colors.blueAccent),),)
+                    MaterialButton(onPressed: (){},child: Text('Create an account',style: TextStyle(color: Colors.blueAccent,fontSize: 11),),)
                   ],),
                 ),
               ],

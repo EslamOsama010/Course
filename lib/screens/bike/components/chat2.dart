@@ -43,7 +43,7 @@ class Chat2 extends StatelessWidget {
                 margin: const EdgeInsets.only(
                   top: 10,
                 ),
-                width: 90,
+                width: 80,
                 height: 25,
                 decoration: BoxDecoration(
                   color: Colors.deepOrange,
@@ -52,7 +52,7 @@ class Chat2 extends StatelessWidget {
                 child: Center(
                     child: Text(
                       'Rs, 1\.80\.000',
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(color: Colors.white,fontSize: 10),
                     )),
               ),
               Container(

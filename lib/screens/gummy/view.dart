@@ -21,7 +21,7 @@ class _GummyScreenState extends State<GummyScreen> {
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(35),
-                    image: DecorationImage(image: NetworkImage('http://cdn.shopify.com/s/files/1/0066/7569/3639/products/NM2841L600MULTIGUMMIESfront_1200x630.jpg?v=1603124849')),
+                    image: DecorationImage(image: NetworkImage('https://i5.walmartimages.com/asr/0454ca45-06b7-4f9e-8404-b2c3cb4bc168_1.afbba6001b97cd3724900ce376150dc2.jpeg')),
                   ),
                 ),
               ),
